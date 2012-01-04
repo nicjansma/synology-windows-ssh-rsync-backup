@@ -1,0 +1,7 @@
+rsyncServerRemote,myserver.homeip.net
+rsyncServerHome,192.168.0.2
+rsyncPortRemote,22
+rsyncPortHome,22
+rsyncUser,root
+rsyncRootPath,/volume1/backup
+versionControlUpdateCmd,
