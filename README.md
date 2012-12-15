@@ -66,7 +66,8 @@ Before you backup any clients, you will need to make a couple changes to the fil
 
     You may also need a couple libraries to ensure those binaries run:
 
-        cygcrypto-0.9.8.dll
+        cygssp-0.dl
+        cygcrypto-0.9.8.dll or cygcrypto-1.0.0.dll
         cyggcc_s-1.dll
         cygiconv-2.dll
         cygintl-8.dll
@@ -74,6 +75,9 @@ Before you backup any clients, you will need to make a couple changes to the fil
         cygspp-0.dll
         cygwin1.dll
         cygz.dll
+
+    NOTE: These libs may change in future versions of Cygwin.  If you get a popup saying 'The program can't start because of X',
+    then fetch X from the Cygwin distribution.
 
 2.  Next, you should update config.csv for your needs:
 
